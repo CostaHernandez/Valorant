@@ -1,0 +1,63 @@
+/* Header, footer */
+
+header {
+    background-color: #c41e3a;
+  }
+  
+  footer {
+    background-color: #c41e3a;
+  }
+  .card img {
+    padding: 5%;
+    transform: translateX(-10px);
+    width: 80%;
+    height: 40%;
+    object-fit: cover;
+    object-position: top left;
+    height: 19rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    position: absolute;
+    image-rendering: -webkit-optimize-contrast;
+    background-image: url(https://trackercdn.com/cdn/tracker.gg/valorant/images/agents-bg.png);outline: 1px solid #7399BF;
+    
+    
+}
+  
+  .card {
+    height: 100%;
+    background-image: url(https://trackercdn.com/cdn/tracker.gg/valorant/images/agents-bg.png);outline: 1px solid #7399BF;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    height: 30rem;
+    background-size: cover;
+    
+    
+    
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: inherit;
+    
+
+    
+    
+  }
+  .card-text{
+    padding-top: 85%;
+    text-align: center;
+    text-decoration: rgb(red, green, blue);
+  }
+  .btn{
+    margin: 40px;
+    font-size: 1em;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 0px;
+    transition: ease-in-out, background-color 0.35s ease-in-out;
+  }
